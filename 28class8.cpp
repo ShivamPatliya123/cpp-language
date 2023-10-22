@@ -11,11 +11,11 @@ class room
     breadth=brth;
     height=hgt;
   } 
-  double claculateArea()
+  double calculateArea()
   {
     return length*breadth;
   }
-  double claculateVolume()
+  double calculateVolume()
   {
     return length*height*breadth;
   }
@@ -24,7 +24,7 @@ int main()
 {
     room r;
     r.input(23.4,43.4,56.6);
-    cout<<"Room claculateArea:"<<r.claculateArea()<<endl;    
-    cout<<"Room claculateArea:"<<r.claculateVolume()<<endl;    
+    cout<<"Room claculateArea:"<<r.calculateArea()<<endl;    
+    cout<<"Room claculateArea:"<<r.calculateVolume()<<endl;    
     return 0;
 }
