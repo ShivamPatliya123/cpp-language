@@ -24,7 +24,7 @@ int main()
 {
     room r;
     r.input(23.4,43.4,56.6);
-    cout<<"Room claculateArea:"<<r.calculateArea()<<endl;    
-    cout<<"Room claculateArea:"<<r.calculateVolume()<<endl;    
+    cout<<"Room calculateArea:"<<r.calculateArea()<<endl;    
+    cout<<"Room calculateArea:"<<r.calculateVolume()<<endl;    
     return 0;
 }
